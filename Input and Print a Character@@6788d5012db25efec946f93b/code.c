@@ -3,10 +3,12 @@
 int main() {
   char inputChar;
 
-  printf("A single character: ");
-  scanf("%c", &inputChar);
+  printf("Input format: A single character\n");
 
-  printf("Entered character: %c\n", inputChar);
+  scanf(" %c", &inputChar);
+
+  printf("Output format: print entered character\n");
+  printf("%c\n", inputChar);
 
   return 0;
 }
