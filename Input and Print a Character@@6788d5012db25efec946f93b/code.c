@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main() {
-  char character;
+  char inputChar;
 
-  printf("Enter a character: ");
-  scanf("%c", &character);
+  printf("A single character: ");
+  scanf("%c", &inputChar);
 
-  printf("You entered: %c\n", character); 
+  printf("Entered character: %c\n", inputChar);
 
   return 0;
 }
