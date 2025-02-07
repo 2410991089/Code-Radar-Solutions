@@ -1,13 +1,11 @@
 #include <stdio.h>
 
 int main() {
-  char character;
+  char inputChar;
 
-  printf("Input format: A single character\n");
+  printf("Enter a character: ");
+  scanf(" %c", &inputChar);
 
-  scanf(" %c", &character);
-
-  printf("Output format: print entered character\n");
   printf("You entered: %c\n", character);
 
   return 0;
