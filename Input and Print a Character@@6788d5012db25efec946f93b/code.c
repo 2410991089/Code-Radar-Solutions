@@ -4,7 +4,7 @@ int main() {
   char inputChar;
 
   printf("Enter a character: ");
-  scanf(" %c", &inputChar);
+  scanf("%c", &inputChar);
 
   printf("You entered: %c\n", inputChar);
 
