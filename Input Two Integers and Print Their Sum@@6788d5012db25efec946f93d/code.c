@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 int main() {
-  int num1,num2,sum;
-  scanf("%d %d", &num1, &num2);
-  sum = num1 + num2
-  printf("Sum: %d\n", sum);
+  int a;
+  int b;
+  scanf("%d" ,&a);
+  scanf("%d" ,&b);
+  int sum = a+b;
+  printf("Sum: %d", sum);
   return 0;
 }
