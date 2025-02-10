@@ -2,8 +2,8 @@
 
 int main() {
     int num;
-    printf("%d" ,num);
     scanf("%d" ,&num);
+    printf("%d" ,num);
     if(num % 2 == 0){
         printf("Even\n");
     } else{
