@@ -2,7 +2,7 @@
 
 int main() {
     int num;
-    printf("Enter an Integer: ");
+    printf("%d" ,num);
     scanf("%d" ,&num);
     if(num%2==0){
         printf("Even\n");
